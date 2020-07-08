@@ -5,16 +5,196 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot Gadgets</title>
 
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#"><img src="image/logo.png" alt="pandalogo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item l-2 active">
+                      <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ml-2">
+                      <a class="nav-link" href="#product">Product</a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide banner-color mt-4" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center px-4">
+                        <div class="col-md-6">
+                            <h1 class="pb-3">Mackbook Pro</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply <br> random text. It has roots in a piece of classical Latin literature.
+                            </p>
+                            <h2 class="mark-p py-3">$400</h2>
+                            <button class="btn-now ">Buy Now</button>
+                        </div>
+                        <div class="col-md-6 p-3">
+                            <img class="d-block w-100" src="image/banner-products/product-1.png" alt="mackbook">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center px-3">
+                        <div class="col-md-6">
+                            <h1 class="pb-3">Mackbook Pro</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply <br> random text. It has roots in a piece of classical Latin literature.
+                            </p>
+                            <h2 class="mark-p py-4">$900</h2>
+                            <button class="btn-now">Buy Now</button>
+                        </div>
+                        <div class="col-md-6 p-3">
+                            <img class="d-block w-100" src="image/banner-products/slider-1.png" alt="mackbook pro">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center px-4">
+                        <div class="col-md-6">
+                            <h1 class="pb-3">Mackbook Pro</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply <br> random text. It has roots in a piece of classical Latin literature.
+                            </p>
+                            <h2 class="mark-p py-3">$790</h2>
+                            <button class="btn-now">Buy Now</button>
+                        </div>
+                        <div class="col-md-6 p-3">
+                            <img class="d-block w-100" src="image/banner-products/slider-3.png" alt="mackbook pro">
+                    </div>
+                    </div> 
+                </div>
+                </div>
+            </div>
+        </div>  
+    </header>
+
+    <section class="my-5">
+        <div class="container mt-3">
+            <div class="phone pt-5">
+                <div class="py-3 text d-flex justify-content-between"">
+                    <h3>Phone</h3>
+                    <a href="#"><span class="see-color">See All</span></a>
+                </div>
+                <div class="card-deck">
+                    <div class="card">
+                            <img class="card-img-top" src="image/phone/phone-1.png" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">iPhone 11 Pro</h4>
+                            <p class="card-text">Some quick example text to build onthe card title..</p>
+                            <h5 class="mark-p my-4">$399</h5>
+                            <button class="btn-now">Buy Now</button>
+                         </div>
+                    </div>
+                    <div class="card">
+                            <img class="card-img-top" src="image/phone/phone-2.png" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Samsung Galaxy Note10+</h4>
+                            <p class="card-text">Some quick example text to build on the card title.</p>
+                            <h5 class="mark-p my-4">$899</h5>
+                            <button class="btn-now">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <img class="card-img-top" src="image/phone/phone-3.png" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Samsung Galaxy Note10</h4>
+                            <p class="card-text">Some quick example text to build on the card title.</p>
+                            <h5 class="mark-p my-4">$999</h5>
+                            <button class="btn-now">Buy Now</button>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="laptop">
+                <div class="text backP d-flex justify-content-between">
+                    <h3 class="pb-3">Laptop</h3>
+                    <a href="#"><span class="see-color">See All</span></a>
+                </div>
+                <div class="card-deck">
+                    <div class="card text-center ">
+                            <img class="card-img-top" src="image/laptop/product-1.png" alt="Card image cap">
+                        <div class="card-body ">
+                            <h4 class="card-title">IAsus VivoBook </h4>
+                            <p class="card-text">Some quick example text to build on the card title..</p>
+                            <h5 class="mark-p my-4">$1099</h5>
+                            <button class="btn-now">Buy Now</button>
+                         </div>
+                    </div>
+                    <div class="card text-center ">
+                            <img class="card-img-top" src="image/laptop/product-2.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Razer Blade 15  </h4>
+                            <p class="card-text">Some quick example text to build on the card title.</p>
+                            <h5 class="mark-p my-4">$1599</h5>
+                            <button class="btn-now">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="card text-center ">
+                            <img class="card-img-top" src="image/laptop/product-3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Xiaomi Mi Notebook Pro </h4>
+                            <p class="card-text">Some quick example text to build on the card title.</p>
+                            <h5 class="mark-p my-4">$1999</h5>
+                            <button class="btn-now">Buy Now</button>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="text-center py-5">
+                <h2>Categories</h2>
+                <hr class="hr">
+            </div>
+            <div class="row">
+                <div class="col-md-3 box-f">
+                    <div class="box-s">
+                        <img src="image/Categories/bag.png" alt="bag">
+                        <h3>Bag</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="box-s">
+                        <img src="image/Categories/perfume.png" alt="pale">
+                        <h3>Beauty </h3>
+                    </div>
+                    <div class="box-s">
+                        <img src="image/Categories/shoe.png" alt="perfume">
+                        <h3>Shoes</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 last-img">
+                    <img src="image/Categories/pale-order.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
     
 
-
-
-
-
-
-    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

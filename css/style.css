@@ -1,0 +1,45 @@
+.mark-p {
+    color: #FF136F;
+}
+.btn-now {
+    background-color: #FF136F;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 20px;
+}
+.text a {
+    text-decoration: none;
+}
+.see-color {
+    color: #FF136F;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gainsboro;
+}
+.card img{
+    padding: 40px ;
+}
+.laptop {
+    margin-top: 80px;
+}
+
+.hr {
+    width: 9%;
+    border: 3px solid #FFD019;
+}
+.last-img img {
+    width: 100%;
+}
+.box-s {
+    box-shadow: 5px 5px 10px gainsboro;
+    text-align: center;
+}
+.first {
+    padding: 20px;
+}
+.box-f {
+    padding-top: 100px;
+}
